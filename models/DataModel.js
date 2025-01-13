@@ -1,9 +1,21 @@
 import mongoose from 'mongoose';
 
 const dataSchema = new mongoose.Schema({
-    fullName: { type: String, required: false },        
-    email: { type: String, required: false },           
-    phone: { type: String, required: false },          
+    fullName: 
+    { 
+        type: String, 
+        required: false 
+    },        
+    email: 
+    { 
+        type: String,
+         required: false
+    },           
+    phone:
+    { 
+        type: String,
+        required: false
+  },          
     dateApplied: { type: String, required: false },       
     jobBoard: { type: String, required: false },       
     jobTitle: { type: String, required: false },        
